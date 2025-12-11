@@ -37,9 +37,6 @@ private:
 	UFUNCTION(BlueprintCallable, Category = "BPPermissionsFuncs")
 	void RequestInternetPermission();
 
-	UFUNCTION(BlueprintCallable, Category = "BPPermissionsFuncs")
-	void RequestWriteExternalStoragePermission();
-
 	UFUNCTION()
 	void OnPermissionsGranted(const TArray<FString>& Permissions, const TArray<bool>& GrantResults);
 

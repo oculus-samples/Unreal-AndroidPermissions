@@ -94,8 +94,3 @@ void UPermissionsUserWidget::RequestInternetPermission()
 {
 	RequestPermission(TEXT("android.permission.INTERNET"));
 }
-
-void UPermissionsUserWidget::RequestWriteExternalStoragePermission()
-{
-	RequestPermission(TEXT("android.permission.WRITE_EXTERNAL_STORAGE"));
-}
